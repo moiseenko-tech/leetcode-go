@@ -23,6 +23,10 @@ var tests = map[string]struct {
 		nums:   []int{5, 1, 5, 2, 5, 3, 5, 4},
 		result: 5,
 	},
+	"9-5-6-9": {
+		nums:   []int{9, 5, 6, 9},
+		result: 9,
+	},
 }
 
 func TestRepeatedNTimes(t *testing.T) {
@@ -33,6 +37,20 @@ func TestRepeatedNTimes(t *testing.T) {
 			expected := test.result
 			if got != expected {
 				t.Fatalf("repeatedNTimes(nums=%v) returned: %v; expected: %v",
+					test.nums, got, expected)
+			}
+		})
+	}
+}
+
+func TestRepeatedNTimesWithMap(t *testing.T) {
+	for name, test := range tests {
+		t.Run(name, func(t *testing.T) {
+			t.Parallel()
+			got := repeatedNTimesWithMap(test.nums)
+			expected := test.result
+			if got != expected {
+				t.Fatalf("repeatedNTimesWithMap(nums=%v) returned: %v; expected: %v",
 					test.nums, got, expected)
 			}
 		})
