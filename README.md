@@ -2,6 +2,11 @@
 
 Collection of LeetCode problem solutions implemented in Go.
 
+![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-4%2F3792-yellow)
+![Language](https://img.shields.io/badge/Language-Go-00ADD8?logo=go&logoColor=white)
+
+
+
 ## Structure
 
 ```
@@ -46,6 +51,8 @@ go test -v ./...
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🥉 Easy | [Go](problems/0001-two-sum/solution.go) |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🥇 Hard | [Go](problems/0004-median-of-two-sorted-arrays/solution.go) |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🥈 Medium | [Go](problems/0167-two-sum-ii-input-array-is-sorted/solution.go) |
+| 961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🥉 Easy | [Go](problems/0961-n-repeated-element-in-size-2n-array/solution.go) |
+
 
 ## Requirements
 
