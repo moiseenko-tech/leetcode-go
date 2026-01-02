@@ -1,0 +1,113 @@
+---
+version: "2"
+
+linters:
+  default: none
+
+  enable:
+    # Core linters aligned with industry standards and best practices.
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+
+    # Supplemental linters used to enforce additional style and documentation rules.
+    - errname
+    - godot
+    - godox
+    - revive
+
+  disable:
+    # Linters intentionally disabled: these are known to be overly strict,
+    # noisy, or low-value in real-world Go projects and are rarely used in
+    # large production codebases.
+    - cyclop
+    - depguard
+    - dupl
+    - err113
+    - errorlint
+    - exhaustruct
+    - forcetypeassert
+    - funlen
+    - gocyclo
+    - tagliatelle
+    - wrapcheck
+
+  # All available settings of specific linters.
+  settings:
+    govet:
+      enable-all: true
+      disable:
+        - fieldalignment
+
+    revive:
+      enable-all-rules: true
+      rules:
+        # Settings for enabled rules.
+        - name: line-length-limit
+          disabled: false
+          arguments: [200]
+        # Disabled rules.
+        - name: add-constant
+          disabled: true
+        - name: cognitive-complexity
+          disabled: true
+        - name: cyclomatic
+          disabled: true
+        - name: flag-parameter
+          disabled: true
+        - name: function-length
+          disabled: true
+        - name: package-comments
+          disabled: true
+        - name: package-directory-mismatch
+          disabled: true
+        - name: unhandled-error
+          disabled: true
+
+  exclusions:
+
+formatters:
+  enable:
+    - gofumpt
+    - gci
+
+  settings:
+    gofumpt:
+      module-path: github.com/moiseenko-tech/leetcode-go
+      extra-rules: false
+
+    gci:
+      # The default order of sections is:
+      # standard > default > custom > blank > dot > alias > localmodule.
+      sections:
+        - standard
+        - default
+        - prefix(github.com/moiseenko-tech/leetcode-go)
+      no-inline-comments: false
+      no-prefix-comments: false
+      custom-order: true
+      no-lex-order: false
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
+  uniq-by-line: true
+  new: false
+  fix: false
+
+output:
+  sort_order:
+    - linter
+    - severity
+    - file # filepath, line, and column.
+
+run:
+  timeout: 5m
+  relative-path-mode: gomod
+  issues-exit-code: 1
+  tests: true
+  allow-parallel-runners: true
+
+severity:

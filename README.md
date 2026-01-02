@@ -5,8 +5,6 @@ Collection of LeetCode problem solutions implemented in Go.
 ![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-4%2F3792-yellow)
 ![Language](https://img.shields.io/badge/Language-Go-00ADD8?logo=go&logoColor=white)
 
-
-
 ## Structure
 
 ```
