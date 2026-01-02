@@ -1,0 +1,56 @@
+# LeetCode Solutions in Go
+
+Collection of LeetCode problem solutions implemented in Go.
+
+## Structure
+
+```
+leetcode-go/
+├── .golangci.yml           # golangci-lint configuration
+├── LICENSE                 # MIT License
+├── Makefile                # Build automation (fmt, lint, test)
+├── README.md               # Project documentation
+├── go.mod                  # Go module definition
+└── problems/
+    └── XXXX-problem-name/
+        ├── solution.go      # Solution implementation
+        └── solution_test.go # Table-driven tests
+```
+
+Each problem is organized in its own directory with:
+* Solution implementation with problem description, URL, and SPDX license identifier
+* Table-driven tests with multiple test cases and parallel execution
+* All files include SPDX-License-Identifier headers for license compliance
+
+## Running Tests
+
+Run all tests:
+```bash
+go test ./...
+```
+
+Run tests for a specific problem:
+```bash
+go test ./problems/0001-two-sum
+```
+
+Run tests with verbose output:
+```bash
+go test -v ./...
+```
+
+## Problems Solved
+
+| # | Title | Difficulty | Solution |
+|---|-------|------------|----------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🥉 Easy | [Go](problems/0001-two-sum/solution.go) |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🥇 Hard | [Go](problems/0004-median-of-two-sorted-arrays/solution.go) |
+| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🥈 Medium | [Go](problems/0167-two-sum-ii-input-array-is-sorted/solution.go) |
+
+## Requirements
+
+- Go 1.25.5 or higher
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
