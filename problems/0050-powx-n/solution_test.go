@@ -4,8 +4,11 @@
 package p0050
 
 import (
+	"math"
 	"testing"
 )
+
+const eps = 1e-9
 
 var tests = map[string]struct {
 	x      float64
@@ -35,8 +38,8 @@ func TestMyPow(t *testing.T) {
 			t.Parallel()
 			got := myPow(test.x, test.n)
 			expected := test.result
-			if got != expected {
-				t.Fatalf("rmyPow(x=%v, n=%v) returned: %v; expected: %v",
+			if math.Abs(expected-got) > eps {
+				t.Fatalf("myPow(x=%v, n=%v) returned: %v; expected: %v",
 					test.x, test.n, got, expected)
 			}
 		})
