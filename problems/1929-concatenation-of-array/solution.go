@@ -7,5 +7,13 @@ package p1929
 // URL: https://leetcode.com/problems/concatenation-of-array/
 
 func getConcatenation(nums []int) []int {
-	return []int{}
+	n := len(nums)
+	result := make([]int, 2*n)
+
+	for i := range n {
+		result[i] = nums[i]
+		result[n+i] = nums[i]
+	}
+
+	return result
 }
