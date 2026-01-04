@@ -7,6 +7,8 @@ package p0645
 // URL: https://leetcode.com/problems/set-mismatch/
 
 func findErrorNums(nums []int) []int {
+	// TODO(amoiseenko): Improve performance.
+
 	seen := make(map[int]bool)
 	var double int
 	var absent int
