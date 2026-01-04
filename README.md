@@ -42,6 +42,14 @@ Run tests with verbose output:
 go test -v ./...
 ```
 
+## Statistics
+
+| Difficulty | Count |
+|-|-|
+| 🥉 Easy | 4 |
+| 🥈 Medium | 2 |
+| 🥇 Hard | 1 |
+
 ## Problems Solved
 
 | # | Title | Difficulty | Solution |
