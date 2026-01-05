@@ -14,9 +14,12 @@ var tests = map[string]struct {
 }{
 	"8-1-2-2-3": {
 		nums:   []int{8, 1, 2, 2, 3},
+		result: []int{4, 0, 1, 1, 3},
+	},
+	"6-5-4-8": {
+		nums:   []int{6, 5, 4, 8},
 		result: []int{2, 1, 0, 3},
 	},
-
 	"7-7-7-7": {
 		nums:   []int{7, 7, 7, 7},
 		result: []int{0, 0, 0, 0},
