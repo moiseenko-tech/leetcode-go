@@ -2,7 +2,7 @@
 
 Collection of LeetCode problem solutions implemented in Go.
 
-![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-9%2F3797-yellow)
+![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-10%2F3797-yellow)
 ![Language](https://img.shields.io/badge/Language-Go-00ADD8?logo=go&logoColor=white)
 
 ## Repository structure
@@ -66,6 +66,7 @@ make tests     # Run all tests
 | 485  | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🥉 Easy | [Go](problems/0485-max-consecutive-ones/solution.go) |
 | 645  | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🥉 Easy | [Go](problems/0645-set-mismatch/solution.go) |
 | 961  | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🥉 Easy | [Go](problems/0961-n-repeated-element-in-size-2n-array/solution.go) |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🥉 Easy | [Go](problems/1365-how-many-numbers-are-smaller-than-the-current-number/solution.go) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🥉 Easy | [Go](problems/1470-shuffle-the-array/) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🥉 Easy | [Go](problems/1929-concatenation-of-array/solution.go) |
 
