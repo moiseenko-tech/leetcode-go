@@ -7,7 +7,9 @@ package p1365
 // URL: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 
 func smallerNumbersThanCurrent(nums []int) []int {
-	var maxNum int = 100
+	// Task constraint.
+	maxNum := 100
+
 	n := len(nums)
 
 	freq := make([]int, maxNum+1)
