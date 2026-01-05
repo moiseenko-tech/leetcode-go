@@ -7,5 +7,22 @@ package p1441
 // URL: https://leetcode.com/problems/build-an-array-with-stack-operations/description/
 
 func buildArray(target []int, n int) []string {
-	return []string{}
+	tgPos, tgLen := 0, len(target)
+	tgVal, tgLast := target[tgPos], target[tgLen-1]
+
+	commands := make([]string, 0)
+	for i := 1; i <= n; i++ {
+		if i == tgVal {
+			commands = append(commands, "Push")
+			if tgVal == tgLast {
+				break
+			}
+			tgPos++
+			tgVal = target[tgPos]
+			continue
+		}
+		commands = append(commands, "Push", "Pop")
+	}
+
+	return commands
 }
