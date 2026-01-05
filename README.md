@@ -63,12 +63,12 @@ make tests     # Run all tests
 |  #   | Title | Difficulty | Solution |
 |:----:|-------|:-----------|:--------:|
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum/) | 🥉 Easy | [Go](problems/0001-two-sum/solution.go) |
-| 448  | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🥉 Easy | [Go](problems/0448-find-all-numbers-disappeared-in-an-array/) |
+| 448  | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🥉 Easy | [Go](problems/0448-find-all-numbers-disappeared-in-an-array/solution.go) |
 | 485  | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🥉 Easy | [Go](problems/0485-max-consecutive-ones/solution.go) |
 | 645  | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🥉 Easy | [Go](problems/0645-set-mismatch/solution.go) |
 | 961  | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🥉 Easy | [Go](problems/0961-n-repeated-element-in-size-2n-array/solution.go) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🥉 Easy | [Go](problems/1365-how-many-numbers-are-smaller-than-the-current-number/solution.go) |
-| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🥉 Easy | [Go](problems/1470-shuffle-the-array/) |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🥉 Easy | [Go](problems/1470-shuffle-the-array/solution.go) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | 🥉 Easy | [Go](problems/1929-concatenation-of-array/solution.go) |
 
 ## Requirements
