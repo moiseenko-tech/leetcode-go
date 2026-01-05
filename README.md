@@ -2,7 +2,7 @@
 
 Collection of LeetCode problem solutions implemented in Go.
 
-![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-10%2F3797-yellow)
+![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-11%2F3802-yellow)
 ![Language](https://img.shields.io/badge/Language-Go-00ADD8?logo=go&logoColor=white)
 
 ## Repository structure
@@ -63,6 +63,7 @@ make tests     # Run all tests
 |  #   | Title | Difficulty | Solution |
 |:----:|-------|:-----------|:--------:|
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum/) | 🥉 Easy | [Go](problems/0001-two-sum/solution.go) |
+| 448  | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🥉 Easy | [Go](problems/0448-find-all-numbers-disappeared-in-an-array/) |
 | 485  | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🥉 Easy | [Go](problems/0485-max-consecutive-ones/solution.go) |
 | 645  | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🥉 Easy | [Go](problems/0645-set-mismatch/solution.go) |
 | 961  | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🥉 Easy | [Go](problems/0961-n-repeated-element-in-size-2n-array/solution.go) |
