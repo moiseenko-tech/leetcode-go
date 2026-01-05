@@ -4,7 +4,7 @@
 package p1441
 
 // Problem: Build an Array With Stack Operations
-// URL: https://leetcode.com/problems/build-an-array-with-stack-operations/description/
+// URL: https://leetcode.com/problems/build-an-array-with-stack-operations/
 
 func buildArray(target []int, n int) []string {
 	tgPos, tgLen := 0, len(target)
