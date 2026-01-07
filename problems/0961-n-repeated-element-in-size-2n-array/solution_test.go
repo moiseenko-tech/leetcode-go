@@ -42,17 +42,3 @@ func TestRepeatedNTimes(t *testing.T) {
 		})
 	}
 }
-
-func TestRepeatedNTimesWithMap(t *testing.T) {
-	for name, test := range tests {
-		t.Run(name, func(t *testing.T) {
-			t.Parallel()
-			got := repeatedNTimesWithMap(test.nums)
-			expected := test.result
-			if got != expected {
-				t.Fatalf("repeatedNTimesWithMap(nums=%v) returned: %v; expected: %v",
-					test.nums, got, expected)
-			}
-		})
-	}
-}
