@@ -2,7 +2,7 @@
 
 Collection of LeetCode problem solutions implemented in Go.
 
-![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-12%2F3802-yellow)
+![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-13%2F3802-yellow)
 ![Language](https://img.shields.io/badge/Language-Go-00ADD8?logo=go&logoColor=white)
 
 ## Repository structure
@@ -55,7 +55,8 @@ make tests     # Run all tests
 
 |  #   | Title | Difficulty | Solution |
 |:----:|-------|:-----------|:--------:|
-| 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🥈 Medium | [Go](problems/0050-powx-n/solution.go) | 
+| 50   | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🥈 Medium | [Go](problems/0050-powx-n/solution.go) |
+| 150  | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🥈 Medium | [Go](problems/0150-evaluate-reverse-polish-notation/solution.go) |
 | 167  | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🥈 Medium | [Go](problems/0167-two-sum-ii-input-array-is-sorted/solution.go) |
 | 1441 | [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/) | 🥈 Medium | [Go](problems/1441-build-an-array-with-stack-operations/solution.go) |
 
