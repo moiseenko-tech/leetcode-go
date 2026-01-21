@@ -29,6 +29,10 @@ var tests = map[string]struct {
 		s:      "([)]",
 		result: false,
 	},
+	"[--false": {
+		s:      "[",
+		result: false,
+	},
 }
 
 func TestIsValid(t *testing.T) {
