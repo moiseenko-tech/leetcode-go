@@ -2,7 +2,7 @@
 
 Collection of LeetCode problem solutions implemented in Go.
 
-![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-13%2F3802-yellow)
+![LeetCode Progress](https://img.shields.io/badge/LeetCode%20Progress-14%2F3817-yellow)
 ![Language](https://img.shields.io/badge/Language-Go-00ADD8?logo=go&logoColor=white)
 
 ## Repository structure
@@ -65,6 +65,7 @@ make tests     # Run all tests
 |  #   | Title | Difficulty | Solution |
 |:----:|-------|:-----------|:--------:|
 | 1    | [Two Sum](https://leetcode.com/problems/two-sum/) | 🥉 Easy | [Go](problems/0001-two-sum/solution.go) |
+| 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🥉 Easy | [Go](problems/0020-valid-parentheses/solution.go) |
 | 448  | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🥉 Easy | [Go](problems/0448-find-all-numbers-disappeared-in-an-array/solution.go) |
 | 485  | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🥉 Easy | [Go](problems/0485-max-consecutive-ones/solution.go) |
 | 645  | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | 🥉 Easy | [Go](problems/0645-set-mismatch/solution.go) |
